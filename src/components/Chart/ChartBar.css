@@ -1,4 +1,6 @@
 .chart-bar {
+  /* background-color: red; */
+  width: 10px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -8,7 +10,7 @@
 .chart-bar__inner {
   height: 100%;
   width: 100%;
-  border: 4px solid #313131;
+  border: 1px solid #313131;
   border-radius: 20px;
   background-color: #c3b4f3;
   overflow: hidden;
@@ -18,6 +20,7 @@
 }
 
 .chart-bar__fill {
+  height: 100%;
   background-color: #4826b9;
   width: 100%;
   transition: all 0.3s ease-out;
